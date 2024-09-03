@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 420px)
+@media screen and (min-width: 360px) and (max-width: 420px)
 {
     * {
         box-sizing: border-box;
@@ -26,6 +26,13 @@
     .header-text {
         color: white;
         text-align: center;
+        margin-top: 15px;
+    }
+
+    .wroclaw-coat {
+        margin: -10px 20px;
+        top: 10%;
+        width: 10%;
     }
 
     a{
@@ -57,14 +64,14 @@
         text-align: center;
     }
 
-    .tu-bedzie-zdjecie {
-        position: relative;
+    .photo-main {
+        position: absolute;
+        top: 65%;
         left: 50%;
-        top: 30px;
-        transform: translate(-50%);
-        width: 150px;
-        height: 150px;
-        background-color: aliceblue;
+        transform: translateX(-50%);
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 250px;
     }
 
 }
