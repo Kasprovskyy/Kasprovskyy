@@ -68,7 +68,7 @@
         left: 50%;
         transform: translate(-50%);
         width: 50%;
-        height: 400px;
+        height: 90vw;
         font-size: 5vw;
         padding-top: 10px;
         text-align: center;
@@ -76,7 +76,7 @@
 
     .photo-main {
         position: relative;
-        margin-top: 40vw;
+        margin-top: 30vw;
         left: 50%;
         transform: translateX(-50%);
         border: 2px solid black;
