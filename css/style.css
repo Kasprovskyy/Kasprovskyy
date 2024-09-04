@@ -107,7 +107,7 @@
     }
 
     footer {
-        height: 60px;
+        height: 15vw;
         background-color: rgb(116, 116, 121);
         margin-top: 30px;
     }
@@ -116,7 +116,7 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        line-height: 60px;
+        line-height: 15vw;
         color: white;
     }
 }
