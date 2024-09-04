@@ -1,10 +1,13 @@
-@media screen and (min-width: 360px) and (max-width: 420px)
+@media screen and (max-width: 575px)
 {
     * {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        font-family: "Roboto", sans-serif;
     }
 
     header {
@@ -15,17 +18,21 @@
     h1 {
         text-align: center;
         color: white;
+        font-size: 7vw;
         padding-top: 40px;
     }
 
     h2 {
         padding-top: 20px;
         text-align: center;
+        font-size: 6vw;
+        text-transform: uppercase;
     }
 
     .header-text {
         color: white;
         text-align: center;
+        font-size: 5vw;
         margin-top: 15px;
     }
 
@@ -42,7 +49,7 @@
 
     nav {
         position: sticky;
-        top: 0;
+        top: -1px;
         z-index: 1;
         background-color: rgb(116, 116, 121);
         height: 50px;
@@ -53,7 +60,7 @@
         line-height: 50px;
         padding: 0 5px;
         text-transform: uppercase;
-        font-size: 15px;
+        font-size: 4vw;
     }
 
     .main-text {
@@ -61,28 +68,33 @@
         left: 50%;
         transform: translate(-50%);
         width: 50%;
+        height: 400px;
+        font-size: 5vw;
         padding-top: 10px;
         text-align: center;
     }
 
     .photo-main {
-        position: absolute;
-        top: 65%;
+        position: relative;
+        margin-top: 40vw;
         left: 50%;
         transform: translateX(-50%);
         border: 2px solid black;
         border-radius: 10px;
-        width: 250px;
+        width: 70vw;
     }
 
     h3 {
         text-align: center;
         margin-top: 30px;
+        font-size: 5vw;
+        text-transform: uppercase;
     }
 
     .attractions-text {
         text-align: center;
-        margin-top: 20px;
+        font-size: 4vw;
+        margin: 20px 10px 0 10px;
     }
 
     .attractions-img {
@@ -90,7 +102,21 @@
         left: 50%;
         transform: translateX(-50%);
         margin-top: 20px;
-        border: 2px solid #333;
-        width: 200px;
+        border: 1px solid #333;
+        width: 60vw;
+    }
+
+    footer {
+        height: 60px;
+        background-color: rgb(116, 116, 121);
+        margin-top: 30px;
+    }
+
+    .footer-text {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        line-height: 60px;
+        color: white;
     }
 }
