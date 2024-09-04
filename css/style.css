@@ -106,6 +106,12 @@
         width: 60vw;
     }
 
+    .grade {
+        text-align: center;
+        margin-top: 5vw;
+        color: gold;
+    }
+
     footer {
         height: 15vw;
         background-color: rgb(116, 116, 121);
