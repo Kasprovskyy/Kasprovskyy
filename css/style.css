@@ -29,6 +29,20 @@
         text-transform: uppercase;
     }
 
+    h3 {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 5vw;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 4vw;
+        text-transform: uppercase;
+    }
+
     .header-text {
         color: white;
         text-align: center;
@@ -84,13 +98,6 @@
         width: 70vw;
     }
 
-    h3 {
-        text-align: center;
-        margin-top: 30px;
-        font-size: 5vw;
-        text-transform: uppercase;
-    }
-
     .attractions-text {
         text-align: center;
         font-size: 4vw;
@@ -107,6 +114,7 @@
     }
 
     .grade {
+        font-size: 5vw;
         text-align: center;
         margin-top: 5vw;
         color: gold;
@@ -124,5 +132,13 @@
         text-align: center;
         font-size: 3vw;
         color: white;
+    }
+
+    .fa-house {
+        color: white;
+    }
+
+    .transport {
+        color: rgb(192, 47, 47);
     }
 }
